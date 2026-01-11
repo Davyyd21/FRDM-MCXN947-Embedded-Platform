@@ -1,0 +1,16 @@
+C:/dev/MCUXpresso_VS/test/lab6/test6/oled.c:343:6:sendOLED	16	static
+C:/dev/MCUXpresso_VS/test/lab6/test6/oled.c:351:6:initOLED	72	static
+C:/dev/MCUXpresso_VS/test/lab6/test6/oled.c:394:6:printfOLED	56	dynamic
+C:/dev/MCUXpresso_VS/test/lab6/test6/oled.c:444:6:writeChar	16	static
+C:/dev/MCUXpresso_VS/test/lab6/test6/oled.c:455:6:setPage	24	static
+C:/dev/MCUXpresso_VS/test/lab6/test6/oled.c:466:6:setSeg	24	static
+C:/dev/MCUXpresso_VS/test/lab6/test6/oled.c:478:6:fillOLED	1048	static
+C:/dev/MCUXpresso_VS/test/lab6/test6/oled.c:499:6:writeString	32	static
+C:/dev/MCUXpresso_VS/test/lab6/test6/oled.c:516:6:lineWrap	8	static
+C:/dev/MCUXpresso_VS/test/lab6/test6/oled.c:559:6:printVar	48	static
+C:/dev/MCUXpresso_VS/test/lab6/test6/oled.c:570:6:resetOLED	8	static
+C:/dev/MCUXpresso_VS/test/lab6/test6/oled.c:587:6:fillPage	152	static
+C:/dev/MCUXpresso_VS/test/lab6/test6/oled.c:603:6:scrollOLED	24	static
+C:/dev/MCUXpresso_VS/test/lab6/test6/oled.c:617:9:min	16	static
+C:/dev/MCUXpresso_VS/test/lab6/test6/oled.c:630:9:max	16	static
+C:/dev/MCUXpresso_VS/test/lab6/test6/oled.c:643:6:testFont	24	static

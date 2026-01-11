@@ -1,0 +1,6 @@
+c:/NXP/MCUXpressoSDK_VSCode/frdm_mcxn947/frdm_mcxn947/devices/MCXN947/drivers/fsl_gpio.h:345:20:GPIO_PinWrite	24	static
+c:/NXP/MCUXpressoSDK_VSCode/frdm_mcxn947/frdm_mcxn947/devices/MCXN947/drivers/fsl_lpadc.h:1128:20:LPADC_DoSoftwareTrigger	16	static
+c:/NXP/MCUXpressoSDK_VSCode/frdm_mcxn947/frdm_mcxn947/devices/MCXN947/drivers/fsl_ctimer.h:517:20:CTIMER_StartTimer	16	static
+C:/dev/MCUXpresso_VS/test/lab6/test6/led_blinky.c:50:6:GPIO40_IRQHandler	16	static
+C:/dev/MCUXpresso_VS/test/lab6/test6/led_blinky.c:71:6:ctimer_match_callback	16	static
+C:/dev/MCUXpresso_VS/test/lab6/test6/led_blinky.c:81:5:main	48	static

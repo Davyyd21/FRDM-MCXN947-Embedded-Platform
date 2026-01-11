@@ -1,0 +1,12 @@
+C:/nxp/Proiect_Final_MCX_Course/sdks/Proiect_Final_MCX_sdk/CMSIS/Core/Include/core_cm33.h:2358:22:__NVIC_EnableIRQ	16	static
+C:/nxp/Proiect_Final_MCX_Course/sdks/Proiect_Final_MCX_sdk/devices/MCXN947/drivers/fsl_common_arm.h:678:24:EnableIRQ	24	static
+C:/nxp/Proiect_Final_MCX_Course/sdks/Proiect_Final_MCX_sdk/devices/MCXN947/drivers/fsl_spc.h:1093:20:SPC_EnableActiveModeAnalogModules	16	static
+C:/Users/david21/Downloads/MCX_LAB_6_OLED/MCX_LAB_6_OLED(3)/peripherals.c:126:13:GPIO4_init	8	static
+C:/Users/david21/Downloads/MCX_LAB_6_OLED/MCX_LAB_6_OLED(3)/peripherals.c:171:13:GPIO3_init	8	static
+C:/Users/david21/Downloads/MCX_LAB_6_OLED/MCX_LAB_6_OLED(3)/peripherals.c:214:13:VREF0_init	8	static
+C:/Users/david21/Downloads/MCX_LAB_6_OLED/MCX_LAB_6_OLED(3)/peripherals.c:435:13:ADC0_init	8	static
+C:/Users/david21/Downloads/MCX_LAB_6_OLED/MCX_LAB_6_OLED(3)/peripherals.c:509:13:CTIMER0_init	8	static
+C:/Users/david21/Downloads/MCX_LAB_6_OLED/MCX_LAB_6_OLED(3)/peripherals.c:574:13:CTIMER1_init	8	static
+C:/Users/david21/Downloads/MCX_LAB_6_OLED/MCX_LAB_6_OLED(3)/peripherals.c:621:13:GPIO0_init	8	static
+C:/Users/david21/Downloads/MCX_LAB_6_OLED/MCX_LAB_6_OLED(3)/peripherals.c:630:6:BOARD_InitPeripherals	8	static
+C:/Users/david21/Downloads/MCX_LAB_6_OLED/MCX_LAB_6_OLED(3)/peripherals.c:645:6:BOARD_InitBootPeripherals	8	static

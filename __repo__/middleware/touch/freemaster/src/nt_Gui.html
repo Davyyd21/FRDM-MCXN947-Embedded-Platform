@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="cs-CZ">
+
+<head>
+
+	<link type="text/css" rel="stylesheet" href="touch.min.css" />
+	<link rel="icon" href="favicon.png" />
+	<meta name="viewport" content="width=device-width">
+	<meta charset="utf-8">
+	<meta name="author" content="ToBeSeen | Grafické studio | www.tobeseen.cz">
+	<meta name="keywords" content="Touch sensing">
+	<meta name="description" content="Touch viewer">
+
+	<title>NXP Touch GUI Tool | NXP</title>
+	<!-- <OBJECT id="pcm" height="0" width="0" classid="clsid:48A185F1-FFDB-11D3-80E3-00C04F176153">
+        </OBJECT> -->
+	<!-- load JSON-RPC and FreeMASTER wrapper object -->
+	<script type="text/javascript" src="./simple-jsonrpc-js.js"></script>
+	<script type="text/javascript" src="./freemaster-client.js"></script>
+	<script type="text/javascript" src="fmstr://localapp/info.js"></script>
+	<script src="./js/jquery.min.js"></script>
+	<script src="./js/animations.js"></script>
+	<script type="text/javascript" src="ntinit.js"></script>
+	<script type="text/javascript" src="nt_module.js"></script>
+	<script type="text/javascript" src="nt_electrode.js"></script>
+	<script type="text/javascript" src="nt_electrode_afid.js"></script>
+	<script type="text/javascript" src="nt_electrode_safa.js"></script>
+	<script type="text/javascript" src="nt_electrode_usafa.js"></script>
+	<script type="text/javascript" src="nt_electrode_mbw.js"></script>
+	<script type="text/javascript" src="nt_control.js"></script>
+	<script type="text/javascript" src="nt_control_arotary.js"></script>
+	<script type="text/javascript" src="nt_control_aslider.js"></script>
+	<script type="text/javascript" src="nt_control_keypad.js"></script>
+	<script type="text/javascript" src="nt_control_matrix.js"></script>
+	<script type="text/javascript" src="nt_control_rotary.js"></script>
+	<script type="text/javascript" src="nt_control_slider.js"></script>
+	<script type="text/javascript" src="nt_control_proxi.js"></script>
+	<script type="text/javascript" src="gui.js"></script>
+	<script type="text/javascript" src="nt_static_cfg.js"></script>
+
+</head>
+
+<body onload="StartGUI()">
+
+	<section id="layout">
+
+		<div class="wrap">
+
+			<div class="topbar">
+
+				<p class="topbar-text">Control page</p>
+
+				<div class="topbar-handle">
+
+					<img class="topbar-icon" alt="icon" src="./img/icon-01.svg" />
+					<img class="topbar-icon" alt="icon" src="./img/icon-02.svg" />
+					<img class="topbar-icon" alt="icon" src="./img/icon-03.svg" />
+
+				</div>
+
+			</div>
+
+			<div class="sheet">
+
+				<nav>
+
+					<ul>
+						<a class="link" onclick="return SetCurrenPageIndex(1)">
+							<li id="modules-link">Modules</li>
+						</a>
+						<a class="link" onclick="return SetCurrenPageIndex(2)">
+							<li id="controls-link">Controls</li>
+						</a>
+						<a class="link" onclick="return SetCurrenPageIndex(3)">
+							<li id="electrodes-link">Electrodes</li>
+						</a>
+						<a class="link" onclick="return SetCurrenPageIndex(4)">
+							<li id="debug-link">Debug</li>
+						</a>
+					</ul>
+
+				</nav>
+
+
+				<!-- ************************************************************ -->
+
+				<div class="modules" ID="tab1">
+
+					<div class="top-modal-section">
+
+						<p class="modal-headline">module_tsi_0.</p>
+
+					</div>
+
+					<div class="modules-table">
+						<div class="modules-table-headline">
+							<div class="mhl-name">
+								<p>Electrode name</p>
+							</div>
+							<div class="mhl-keydetector">
+								<p>Keydetector</p>
+							</div>
+							<div class="mhl-raw-cnt">
+								<p>Raw Cnt</p>
+							</div>
+							<div class="mhl-baseline-cnt">
+								<p>Baseline Cnt</p>
+							</div>
+							<div class="mhl-signal">
+								<p>Signal</p>
+							</div>
+							<div class="mhl-touch">
+								<p>Touch</p>
+							</div>
+							<div class="mhl-color">
+								<p>Color</p>
+							</div>
+							<div class="mhl-flags">
+								<p>Flags</p>
+							</div>
+							<div class="mhl-maxtouch">
+								<p>Max Touch</p>
+							</div>
+						</div>
+					</div>
+
+				</div>
+
+				<div class="controls" id="tab2">
+				</div>
+
+				<div class="electrodes" id="tab3">
+
+					<div class="top-modal-section">
+
+						<p class="modal-headline">scope of electrode <span class="grey-text">| measured data</span></p>
+
+					</div>
+
+					<div class="modules-table">
+
+						<div class="modules-table-headline">
+
+							<div class="mhl-raw-signal">
+								<p>Raw_Signal</p>
+							</div>
+							<div class="mhl-signal">
+								<p>Signal</p>
+							</div>
+							<div class="mhl-baseline">
+								<p>Baseline</p>
+							</div>
+							<div class="mhl-flags">
+								<p>Flags</p>
+							</div>
+							<div class="mhl-statex">
+								<p>State 0</p>
+							</div>
+							<div class="mhl-tstamp">
+								<p>T_stamp_0</p>
+							</div>
+							<div class="mhl-statex">
+								<p>State 1</p>
+							</div>
+							<div class="mhl-tstamp">
+								<p>T_stamp_1</p>
+							</div>
+							<div class="mhl-statex">
+								<p>State 2</p>
+							</div>
+							<div class="mhl-tstamp">
+								<p>T_stamp_2</p>
+							</div>
+							<div class="mhl-statex">
+								<p>State 3</p>
+							</div>
+							<div class="mhl-tstamp">
+								<p>T_stamp_3</p>
+							</div>
+
+						</div>
+
+						<div class="modules-table-line">
+
+							<div class="mtl-raw-signal">
+								<p>14 562</p>
+							</div>
+							<div class="mtl-signal">
+								<p>14 563</p>
+							</div>
+							<div class="mtl-baseline">
+								<p>14 567</p>
+							</div>
+							<div class="mtl-flags">
+								<p>16</p>
+							</div>
+							<div class="mtl-statex">
+								<p>touch</p>
+							</div>
+							<div class="mtl-tstamp">
+								<p>10m:56.91s</p>
+							</div>
+							<div class="mtl-statex">
+								<p>release</p>
+							</div>
+							<div class="mtl-tstamp">
+								<p>10m:57.09s</p>
+							</div>
+							<div class="mtl-statex">
+								<p>touch</p>
+							</div>
+							<div class="mtl-tstamp">
+								<p>10m:57.36s</p>
+							</div>
+							<div class="mtl-statex">
+								<p>release</p>
+							</div>
+							<div class="mtl-statex">
+								<p>10m:57.51s</p>
+							</div>
+							<div class="cistic"></div>
+						</div>
+
+					</div>
+
+					<div class="top-modal-section">
+
+						<p class="modal-headline">keydetectortype: usafa</p>
+
+					</div>
+
+					<div class="modules-table">
+
+						<div class="modules-table-headline modules-table-headline-240">
+
+							<div class="mhl-raw-signal">
+								<p>Raw_Signal</p>
+							</div>
+							<div class="mhl-signal">
+								<p>Noise</p>
+							</div>
+
+						</div>
+
+						<div class="modules-table-line modules-line-headline-240">
+
+							<div class="mtl-raw-signal">
+								<p>14 932</p>
+							</div>
+							<div class="mtl-signal">
+								<p>50</p>
+							</div>
+							<div class="cistic"></div>
+						</div>
+
+					</div>
+
+				</div>
+
+				<div class="debug">
+
+					<div class="top-modal-section">
+
+						<p class="modal-headline">NXP Touch symbol parsing log:</p>
+
+					</div>
+
+					<div class="debug-log-wrap" id="msglog">
+
+					</div>
+				</div>
+
+
+				<img src="./img/popup-load.svg" class="rotate180" id="popup-load" />
+				<div id="show-popup"></div>
+
+
+			</div>
+
+		</div>
+
+
+	</section>
+
+
+	</div>
+
+</body>
+
+</html>

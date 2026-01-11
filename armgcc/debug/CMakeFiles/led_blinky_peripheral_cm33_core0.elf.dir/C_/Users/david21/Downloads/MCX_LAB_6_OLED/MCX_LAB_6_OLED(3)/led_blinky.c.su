@@ -1,0 +1,11 @@
+C:/nxp/Proiect_Final_MCX_Course/sdks/Proiect_Final_MCX_sdk/devices/MCXN947/drivers/fsl_gpio.h:345:20:GPIO_PinWrite	24	static
+C:/nxp/Proiect_Final_MCX_Course/sdks/Proiect_Final_MCX_sdk/devices/MCXN947/drivers/fsl_gpio.h:427:24:GPIO_PinRead	16	static
+C:/nxp/Proiect_Final_MCX_Course/sdks/Proiect_Final_MCX_sdk/devices/MCXN947/drivers/fsl_lpadc.h:1128:20:LPADC_DoSoftwareTrigger	16	static
+C:/nxp/Proiect_Final_MCX_Course/sdks/Proiect_Final_MCX_sdk/devices/MCXN947/drivers/fsl_ctimer.h:517:20:CTIMER_StartTimer	16	static
+C:/nxp/Proiect_Final_MCX_Course/sdks/Proiect_Final_MCX_sdk/devices/MCXN947/drivers/fsl_ctimer.h:527:20:CTIMER_StopTimer	16	static
+C:/Users/david21/Downloads/MCX_LAB_6_OLED/MCX_LAB_6_OLED(3)/led_blinky.c:61:6:GPIO40_IRQHandler	16	static
+C:/Users/david21/Downloads/MCX_LAB_6_OLED/MCX_LAB_6_OLED(3)/led_blinky.c:81:6:GPIO00_IRQHandler	16	static
+C:/Users/david21/Downloads/MCX_LAB_6_OLED/MCX_LAB_6_OLED(3)/led_blinky.c:98:6:GPIO31_IRQHandler	16	static
+C:/Users/david21/Downloads/MCX_LAB_6_OLED/MCX_LAB_6_OLED(3)/led_blinky.c:116:6:ctimer1_match_callback	16	static
+C:/Users/david21/Downloads/MCX_LAB_6_OLED/MCX_LAB_6_OLED(3)/led_blinky.c:121:6:ctimer2_match_callback	16	static
+C:/Users/david21/Downloads/MCX_LAB_6_OLED/MCX_LAB_6_OLED(3)/led_blinky.c:129:5:main	88	static

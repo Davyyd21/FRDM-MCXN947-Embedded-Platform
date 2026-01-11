@@ -1,0 +1,1072 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "led_blinky_peripheral_cm33_core0.elf"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_executable",
+			"add_link_options",
+			"include",
+			"project",
+			"target_link_libraries",
+			"group_link_libraries",
+			"target_include_directories",
+			"include_if_use",
+			"target_sources",
+			"add_config_file"
+		],
+		"files" : 
+		[
+			"CMakeLists.txt",
+			"C:/nxp/Proiect_Final_MCX_Course/sdks/Proiect_Final_MCX_sdk/tools/cmake_toolchain_files/armgcc.cmake",
+			"C:/Users/david21/Downloads/winlibs-x86_64-mcf-seh-gcc-13.2.0-mingw-w64ucrt-11.0.1-r3 (extract.me)/mingw64/share/cmake-3.27/Modules/CMakeDetermineSystem.cmake",
+			"C:/nxp/Proiect_Final_MCX_Course/sdks/Proiect_Final_MCX_sdk/tools/cmake_toolchain_files/mcux_config.cmake",
+			"C:/nxp/Proiect_Final_MCX_Course/sdks/Proiect_Final_MCX_sdk/CMSIS/Core/Include/CMSIS_Include_core_cm.cmake",
+			"C:/nxp/Proiect_Final_MCX_Course/sdks/Proiect_Final_MCX_sdk/devices/MCXN947/all_lib_device.cmake",
+			"C:/nxp/Proiect_Final_MCX_Course/sdks/Proiect_Final_MCX_sdk/components/uart/component_lpuart_adapter.MCXN947.cmake",
+			"C:/nxp/Proiect_Final_MCX_Course/sdks/Proiect_Final_MCX_sdk/devices/MCXN947/device_CMSIS.MCXN947.cmake",
+			"C:/nxp/Proiect_Final_MCX_Course/sdks/Proiect_Final_MCX_sdk/devices/MCXN947/drivers/driver_clock.MCXN947.cmake",
+			"C:/nxp/Proiect_Final_MCX_Course/sdks/Proiect_Final_MCX_sdk/devices/MCXN947/utilities/debug_console_lite/utility_assert_lite.MCXN947.cmake",
+			"C:/nxp/Proiect_Final_MCX_Course/sdks/Proiect_Final_MCX_sdk/devices/MCXN947/utilities/utility_debug_console_lite.MCXN947.cmake",
+			"C:/nxp/Proiect_Final_MCX_Course/sdks/Proiect_Final_MCX_sdk/devices/MCXN947/utilities/utility_str.MCXN947.cmake",
+			"C:/nxp/Proiect_Final_MCX_Course/sdks/Proiect_Final_MCX_sdk/devices/MCXN947/device_startup.MCXN947.cmake",
+			"C:/nxp/Proiect_Final_MCX_Course/sdks/Proiect_Final_MCX_sdk/devices/MCXN947/device_system.MCXN947.cmake",
+			"C:/nxp/Proiect_Final_MCX_Course/sdks/Proiect_Final_MCX_sdk/devices/MCXN947/drivers/driver_common.MCXN947.cmake",
+			"C:/nxp/Proiect_Final_MCX_Course/sdks/Proiect_Final_MCX_sdk/devices/MCXN947/drivers/driver_ctimer.MCXN947.cmake",
+			"C:/nxp/Proiect_Final_MCX_Course/sdks/Proiect_Final_MCX_sdk/devices/MCXN947/drivers/driver_gpio.MCXN947.cmake",
+			"C:/nxp/Proiect_Final_MCX_Course/sdks/Proiect_Final_MCX_sdk/devices/MCXN947/drivers/driver_lpadc.MCXN947.cmake",
+			"C:/nxp/Proiect_Final_MCX_Course/sdks/Proiect_Final_MCX_sdk/devices/MCXN947/drivers/driver_lpflexcomm.MCXN947.cmake",
+			"C:/nxp/Proiect_Final_MCX_Course/sdks/Proiect_Final_MCX_sdk/devices/MCXN947/drivers/driver_lpflexcomm_lpi2c.MCXN947.cmake",
+			"C:/nxp/Proiect_Final_MCX_Course/sdks/Proiect_Final_MCX_sdk/devices/MCXN947/drivers/driver_lpflexcomm_lpuart.MCXN947.cmake",
+			"C:/nxp/Proiect_Final_MCX_Course/sdks/Proiect_Final_MCX_sdk/devices/MCXN947/drivers/driver_mcx_spc.MCXN947.cmake",
+			"C:/nxp/Proiect_Final_MCX_Course/sdks/Proiect_Final_MCX_sdk/devices/MCXN947/drivers/driver_reset.MCXN947.cmake",
+			"C:/nxp/Proiect_Final_MCX_Course/sdks/Proiect_Final_MCX_sdk/devices/MCXN947/drivers/driver_vref_1.MCXN947.cmake",
+			"C:/nxp/Proiect_Final_MCX_Course/sdks/Proiect_Final_MCX_sdk/devices/MCXN947/utilities/utilities_misc_utilities.MCXN947.cmake"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 43,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 27,
+				"parent" : 0
+			},
+			{
+				"file" : 2,
+				"parent" : 2
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 148,
+				"parent" : 3
+			},
+			{
+				"file" : 1,
+				"parent" : 4
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 62,
+				"parent" : 5
+			},
+			{
+				"command" : 5,
+				"file" : 0,
+				"line" : 84,
+				"parent" : 0
+			},
+			{
+				"command" : 4,
+				"file" : 3,
+				"line" : 159,
+				"parent" : 7
+			},
+			{
+				"command" : 4,
+				"file" : 3,
+				"line" : 161,
+				"parent" : 7
+			},
+			{
+				"command" : 4,
+				"file" : 3,
+				"line" : 163,
+				"parent" : 7
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 61,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 66,
+				"parent" : 0
+			},
+			{
+				"file" : 5,
+				"parent" : 12
+			},
+			{
+				"command" : 7,
+				"file" : 5,
+				"line" : 2995,
+				"parent" : 13
+			},
+			{
+				"command" : 2,
+				"file" : 3,
+				"line" : 109,
+				"parent" : 14
+			},
+			{
+				"file" : 4,
+				"parent" : 15
+			},
+			{
+				"command" : 6,
+				"file" : 4,
+				"line" : 6,
+				"parent" : 16
+			},
+			{
+				"command" : 7,
+				"file" : 5,
+				"line" : 3106,
+				"parent" : 13
+			},
+			{
+				"command" : 2,
+				"file" : 3,
+				"line" : 109,
+				"parent" : 18
+			},
+			{
+				"file" : 6,
+				"parent" : 19
+			},
+			{
+				"command" : 6,
+				"file" : 6,
+				"line" : 11,
+				"parent" : 20
+			},
+			{
+				"command" : 7,
+				"file" : 5,
+				"line" : 3222,
+				"parent" : 13
+			},
+			{
+				"command" : 2,
+				"file" : 3,
+				"line" : 109,
+				"parent" : 22
+			},
+			{
+				"file" : 7,
+				"parent" : 23
+			},
+			{
+				"command" : 6,
+				"file" : 7,
+				"line" : 6,
+				"parent" : 24
+			},
+			{
+				"command" : 7,
+				"file" : 5,
+				"line" : 3238,
+				"parent" : 13
+			},
+			{
+				"command" : 2,
+				"file" : 3,
+				"line" : 109,
+				"parent" : 26
+			},
+			{
+				"file" : 8,
+				"parent" : 27
+			},
+			{
+				"command" : 6,
+				"file" : 8,
+				"line" : 11,
+				"parent" : 28
+			},
+			{
+				"command" : 7,
+				"file" : 5,
+				"line" : 3880,
+				"parent" : 13
+			},
+			{
+				"command" : 2,
+				"file" : 3,
+				"line" : 109,
+				"parent" : 30
+			},
+			{
+				"file" : 9,
+				"parent" : 31
+			},
+			{
+				"command" : 6,
+				"file" : 9,
+				"line" : 11,
+				"parent" : 32
+			},
+			{
+				"command" : 7,
+				"file" : 5,
+				"line" : 3882,
+				"parent" : 13
+			},
+			{
+				"command" : 2,
+				"file" : 3,
+				"line" : 109,
+				"parent" : 34
+			},
+			{
+				"file" : 10,
+				"parent" : 35
+			},
+			{
+				"command" : 6,
+				"file" : 10,
+				"line" : 11,
+				"parent" : 36
+			},
+			{
+				"command" : 7,
+				"file" : 5,
+				"line" : 3887,
+				"parent" : 13
+			},
+			{
+				"command" : 2,
+				"file" : 3,
+				"line" : 109,
+				"parent" : 38
+			},
+			{
+				"file" : 11,
+				"parent" : 39
+			},
+			{
+				"command" : 6,
+				"file" : 11,
+				"line" : 11,
+				"parent" : 40
+			},
+			{
+				"command" : 8,
+				"file" : 6,
+				"line" : 6,
+				"parent" : 20
+			},
+			{
+				"command" : 7,
+				"file" : 5,
+				"line" : 3225,
+				"parent" : 13
+			},
+			{
+				"command" : 2,
+				"file" : 3,
+				"line" : 109,
+				"parent" : 43
+			},
+			{
+				"file" : 12,
+				"parent" : 44
+			},
+			{
+				"command" : 9,
+				"file" : 12,
+				"line" : 21,
+				"parent" : 45
+			},
+			{
+				"command" : 8,
+				"file" : 3,
+				"line" : 134,
+				"parent" : 46
+			},
+			{
+				"command" : 7,
+				"file" : 5,
+				"line" : 3226,
+				"parent" : 13
+			},
+			{
+				"command" : 2,
+				"file" : 3,
+				"line" : 109,
+				"parent" : 48
+			},
+			{
+				"file" : 13,
+				"parent" : 49
+			},
+			{
+				"command" : 8,
+				"file" : 13,
+				"line" : 7,
+				"parent" : 50
+			},
+			{
+				"command" : 8,
+				"file" : 8,
+				"line" : 6,
+				"parent" : 28
+			},
+			{
+				"command" : 7,
+				"file" : 5,
+				"line" : 3244,
+				"parent" : 13
+			},
+			{
+				"command" : 2,
+				"file" : 3,
+				"line" : 109,
+				"parent" : 53
+			},
+			{
+				"file" : 14,
+				"parent" : 54
+			},
+			{
+				"command" : 8,
+				"file" : 14,
+				"line" : 6,
+				"parent" : 55
+			},
+			{
+				"command" : 8,
+				"file" : 14,
+				"line" : 11,
+				"parent" : 55
+			},
+			{
+				"command" : 7,
+				"file" : 5,
+				"line" : 3248,
+				"parent" : 13
+			},
+			{
+				"command" : 2,
+				"file" : 3,
+				"line" : 109,
+				"parent" : 58
+			},
+			{
+				"file" : 15,
+				"parent" : 59
+			},
+			{
+				"command" : 8,
+				"file" : 15,
+				"line" : 6,
+				"parent" : 60
+			},
+			{
+				"command" : 7,
+				"file" : 5,
+				"line" : 3288,
+				"parent" : 13
+			},
+			{
+				"command" : 2,
+				"file" : 3,
+				"line" : 109,
+				"parent" : 62
+			},
+			{
+				"file" : 16,
+				"parent" : 63
+			},
+			{
+				"command" : 8,
+				"file" : 16,
+				"line" : 6,
+				"parent" : 64
+			},
+			{
+				"command" : 7,
+				"file" : 5,
+				"line" : 3300,
+				"parent" : 13
+			},
+			{
+				"command" : 2,
+				"file" : 3,
+				"line" : 109,
+				"parent" : 66
+			},
+			{
+				"file" : 17,
+				"parent" : 67
+			},
+			{
+				"command" : 8,
+				"file" : 17,
+				"line" : 6,
+				"parent" : 68
+			},
+			{
+				"command" : 7,
+				"file" : 5,
+				"line" : 3303,
+				"parent" : 13
+			},
+			{
+				"command" : 2,
+				"file" : 3,
+				"line" : 109,
+				"parent" : 70
+			},
+			{
+				"file" : 18,
+				"parent" : 71
+			},
+			{
+				"command" : 8,
+				"file" : 18,
+				"line" : 6,
+				"parent" : 72
+			},
+			{
+				"command" : 7,
+				"file" : 5,
+				"line" : 3304,
+				"parent" : 13
+			},
+			{
+				"command" : 2,
+				"file" : 3,
+				"line" : 109,
+				"parent" : 74
+			},
+			{
+				"file" : 19,
+				"parent" : 75
+			},
+			{
+				"command" : 8,
+				"file" : 19,
+				"line" : 6,
+				"parent" : 76
+			},
+			{
+				"command" : 7,
+				"file" : 5,
+				"line" : 3310,
+				"parent" : 13
+			},
+			{
+				"command" : 2,
+				"file" : 3,
+				"line" : 109,
+				"parent" : 78
+			},
+			{
+				"file" : 20,
+				"parent" : 79
+			},
+			{
+				"command" : 8,
+				"file" : 20,
+				"line" : 6,
+				"parent" : 80
+			},
+			{
+				"command" : 7,
+				"file" : 5,
+				"line" : 3319,
+				"parent" : 13
+			},
+			{
+				"command" : 2,
+				"file" : 3,
+				"line" : 109,
+				"parent" : 82
+			},
+			{
+				"file" : 21,
+				"parent" : 83
+			},
+			{
+				"command" : 8,
+				"file" : 21,
+				"line" : 6,
+				"parent" : 84
+			},
+			{
+				"command" : 7,
+				"file" : 5,
+				"line" : 3348,
+				"parent" : 13
+			},
+			{
+				"command" : 2,
+				"file" : 3,
+				"line" : 109,
+				"parent" : 86
+			},
+			{
+				"file" : 22,
+				"parent" : 87
+			},
+			{
+				"command" : 8,
+				"file" : 22,
+				"line" : 6,
+				"parent" : 88
+			},
+			{
+				"command" : 7,
+				"file" : 5,
+				"line" : 3383,
+				"parent" : 13
+			},
+			{
+				"command" : 2,
+				"file" : 3,
+				"line" : 109,
+				"parent" : 90
+			},
+			{
+				"file" : 23,
+				"parent" : 91
+			},
+			{
+				"command" : 8,
+				"file" : 23,
+				"line" : 6,
+				"parent" : 92
+			},
+			{
+				"command" : 7,
+				"file" : 5,
+				"line" : 3877,
+				"parent" : 13
+			},
+			{
+				"command" : 2,
+				"file" : 3,
+				"line" : 109,
+				"parent" : 94
+			},
+			{
+				"file" : 24,
+				"parent" : 95
+			},
+			{
+				"command" : 8,
+				"file" : 24,
+				"line" : 7,
+				"parent" : 96
+			},
+			{
+				"command" : 8,
+				"file" : 24,
+				"line" : 14,
+				"parent" : 96
+			},
+			{
+				"command" : 8,
+				"file" : 9,
+				"line" : 6,
+				"parent" : 32
+			},
+			{
+				"command" : 8,
+				"file" : 10,
+				"line" : 6,
+				"parent" : 36
+			},
+			{
+				"command" : 8,
+				"file" : 11,
+				"line" : 6,
+				"parent" : 40
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "    -fstack-usage  -D__NEWLIB__  -fstack-usage  -D__NEWLIB__       -O0 -g -O0 -g     -include C:/Users/david21/Downloads/MCX_LAB_6_OLED/MCX_LAB_6_OLED(3)/armgcc/../mcux_config.h     -DDEBUG     -D__STARTUP_CLEAR_BSS     -DMCUX_META_BUILD     -DMCUXPRESSO_SDK     -DCPU_MCXN947VDF_cm33_core0     -DMCXN947_cm33_core0_SERIES     -g     -O0     -Wall     -fno-common     -ffunction-sections     -fdata-sections     -fno-builtin     -mthumb     -mapcs     -std=gnu99     -mcpu=cortex-m33     -mfloat-abi=hard -mfpu=fpv5-sp-d16     -DSDK_DEBUGCONSOLE=1 "
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 11,
+					"path" : "C:/Users/david21/Downloads/MCX_LAB_6_OLED/MCX_LAB_6_OLED(3)/armgcc/.."
+				},
+				{
+					"backtrace" : 17,
+					"path" : "C:/nxp/Proiect_Final_MCX_Course/sdks/Proiect_Final_MCX_sdk/CMSIS/Core/Include/."
+				},
+				{
+					"backtrace" : 17,
+					"path" : "C:/nxp/Proiect_Final_MCX_Course/sdks/Proiect_Final_MCX_sdk/CMSIS/Core/Include/m-profile"
+				},
+				{
+					"backtrace" : 21,
+					"path" : "C:/nxp/Proiect_Final_MCX_Course/sdks/Proiect_Final_MCX_sdk/components/uart/."
+				},
+				{
+					"backtrace" : 25,
+					"path" : "C:/nxp/Proiect_Final_MCX_Course/sdks/Proiect_Final_MCX_sdk/devices/MCXN947/."
+				},
+				{
+					"backtrace" : 25,
+					"path" : "C:/nxp/Proiect_Final_MCX_Course/sdks/Proiect_Final_MCX_sdk/devices/MCXN947/periph"
+				},
+				{
+					"backtrace" : 29,
+					"path" : "C:/nxp/Proiect_Final_MCX_Course/sdks/Proiect_Final_MCX_sdk/devices/MCXN947/drivers/."
+				},
+				{
+					"backtrace" : 33,
+					"path" : "C:/nxp/Proiect_Final_MCX_Course/sdks/Proiect_Final_MCX_sdk/devices/MCXN947/utilities/debug_console_lite/."
+				},
+				{
+					"backtrace" : 37,
+					"path" : "C:/nxp/Proiect_Final_MCX_Course/sdks/Proiect_Final_MCX_sdk/devices/MCXN947/utilities/debug_console_lite"
+				},
+				{
+					"backtrace" : 41,
+					"path" : "C:/nxp/Proiect_Final_MCX_Course/sdks/Proiect_Final_MCX_sdk/devices/MCXN947/utilities/str"
+				}
+			],
+			"language" : "C",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				4,
+				6,
+				7,
+				9,
+				13,
+				15,
+				17,
+				18,
+				19,
+				20,
+				21,
+				22,
+				23,
+				24,
+				25,
+				26,
+				27,
+				28,
+				29,
+				30,
+				31,
+				33,
+				34,
+				35
+			]
+		},
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "    -fstack-usage  -D__NEWLIB__  -fstack-usage  -D__NEWLIB__       -g -g     -include C:/Users/david21/Downloads/MCX_LAB_6_OLED/MCX_LAB_6_OLED(3)/armgcc/../mcux_config.h     -D__STARTUP_CLEAR_BSS     -DMCUXPRESSO_SDK     -DCPU_MCXN947VDF_cm33_core0     -DMCXN947_cm33_core0_SERIES     -g     -mthumb     -mcpu=cortex-m33     -mfloat-abi=hard -mfpu=fpv5-sp-d16 "
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 11,
+					"path" : "C:/Users/david21/Downloads/MCX_LAB_6_OLED/MCX_LAB_6_OLED(3)/armgcc/.."
+				},
+				{
+					"backtrace" : 17,
+					"path" : "C:/nxp/Proiect_Final_MCX_Course/sdks/Proiect_Final_MCX_sdk/CMSIS/Core/Include/."
+				},
+				{
+					"backtrace" : 17,
+					"path" : "C:/nxp/Proiect_Final_MCX_Course/sdks/Proiect_Final_MCX_sdk/CMSIS/Core/Include/m-profile"
+				},
+				{
+					"backtrace" : 21,
+					"path" : "C:/nxp/Proiect_Final_MCX_Course/sdks/Proiect_Final_MCX_sdk/components/uart/."
+				},
+				{
+					"backtrace" : 25,
+					"path" : "C:/nxp/Proiect_Final_MCX_Course/sdks/Proiect_Final_MCX_sdk/devices/MCXN947/."
+				},
+				{
+					"backtrace" : 25,
+					"path" : "C:/nxp/Proiect_Final_MCX_Course/sdks/Proiect_Final_MCX_sdk/devices/MCXN947/periph"
+				},
+				{
+					"backtrace" : 29,
+					"path" : "C:/nxp/Proiect_Final_MCX_Course/sdks/Proiect_Final_MCX_sdk/devices/MCXN947/drivers/."
+				},
+				{
+					"backtrace" : 33,
+					"path" : "C:/nxp/Proiect_Final_MCX_Course/sdks/Proiect_Final_MCX_sdk/devices/MCXN947/utilities/debug_console_lite/."
+				},
+				{
+					"backtrace" : 37,
+					"path" : "C:/nxp/Proiect_Final_MCX_Course/sdks/Proiect_Final_MCX_sdk/devices/MCXN947/utilities/debug_console_lite"
+				},
+				{
+					"backtrace" : 41,
+					"path" : "C:/nxp/Proiect_Final_MCX_Course/sdks/Proiect_Final_MCX_sdk/devices/MCXN947/utilities/str"
+				}
+			],
+			"language" : "ASM",
+			"sourceIndexes" : 
+			[
+				16,
+				32
+			]
+		}
+	],
+	"id" : "led_blinky_peripheral_cm33_core0.elf::@6890427a1f51a3e7e1df",
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "-fstack-usage  -D__NEWLIB__  -fstack-usage  -D__NEWLIB__       -O0 -g -O0 -g     -include C:/Users/david21/Downloads/MCX_LAB_6_OLED/MCX_LAB_6_OLED(3)/armgcc/../mcux_config.h     -DDEBUG     -D__STARTUP_CLEAR_BSS     -DMCUX_META_BUILD     -DMCUXPRESSO_SDK     -DCPU_MCXN947VDF_cm33_core0     -DMCXN947_cm33_core0_SERIES     -g     -O0     -Wall     -fno-common     -ffunction-sections     -fdata-sections     -fno-builtin     -mthumb     -mapcs     -std=gnu99     -mcpu=cortex-m33     -mfloat-abi=hard -mfpu=fpv5-sp-d16     -DSDK_DEBUGCONSOLE=1",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "-g     -Xlinker     -Map=output.map     -Wall     -fno-common     -ffunction-sections     -fdata-sections     -fno-builtin     -mthumb     -mapcs     -Wl,--gc-sections     -Wl,-static     -Wl,--print-memory-usage     -mcpu=cortex-m33     -mfloat-abi=hard -mfpu=fpv5-sp-d16     --specs=nano.specs --specs=nosys.specs     -T\"C:/Users/david21/Downloads/MCX_LAB_6_OLED/MCX_LAB_6_OLED(3)/armgcc/MCXN947_cm33_core0_flash.ld\" -static",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "-Wl,--no-warn-rwx-segments",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 8,
+				"fragment" : "-Wl,--start-group",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 9,
+				"fragment" : "-lgcc -lc -lm -lcr_newlib_nohost",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 10,
+				"fragment" : "-Wl,--end-group",
+				"role" : "libraries"
+			}
+		],
+		"language" : "C"
+	},
+	"name" : "led_blinky_peripheral_cm33_core0.elf",
+	"nameOnDisk" : "led_blinky_peripheral_cm33_core0.elf",
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				4,
+				6,
+				7,
+				9,
+				13,
+				15,
+				17,
+				18,
+				19,
+				20,
+				21,
+				22,
+				23,
+				24,
+				25,
+				26,
+				27,
+				28,
+				29,
+				30,
+				31,
+				33,
+				34,
+				35
+			]
+		},
+		{
+			"name" : "Header Files",
+			"sourceIndexes" : 
+			[
+				2,
+				3,
+				5,
+				8,
+				10,
+				11,
+				12,
+				14
+			]
+		},
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				16,
+				32
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/david21/Downloads/MCX_LAB_6_OLED/MCX_LAB_6_OLED(3)/led_blinky.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/david21/Downloads/MCX_LAB_6_OLED/MCX_LAB_6_OLED(3)/peripherals.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/david21/Downloads/MCX_LAB_6_OLED/MCX_LAB_6_OLED(3)/peripherals.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/david21/Downloads/MCX_LAB_6_OLED/MCX_LAB_6_OLED(3)/board.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/david21/Downloads/MCX_LAB_6_OLED/MCX_LAB_6_OLED(3)/board.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/david21/Downloads/MCX_LAB_6_OLED/MCX_LAB_6_OLED(3)/clock_config.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/david21/Downloads/MCX_LAB_6_OLED/MCX_LAB_6_OLED(3)/clock_config.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/david21/Downloads/MCX_LAB_6_OLED/MCX_LAB_6_OLED(3)/pin_mux.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/david21/Downloads/MCX_LAB_6_OLED/MCX_LAB_6_OLED(3)/pin_mux.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/david21/Downloads/MCX_LAB_6_OLED/MCX_LAB_6_OLED(3)/hardware_init.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/david21/Downloads/MCX_LAB_6_OLED/MCX_LAB_6_OLED(3)/app.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/david21/Downloads/MCX_LAB_6_OLED/MCX_LAB_6_OLED(3)/ZephyrMap_Gen.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/david21/Downloads/MCX_LAB_6_OLED/MCX_LAB_6_OLED(3)/mcux_config.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/david21/Downloads/MCX_LAB_6_OLED/MCX_LAB_6_OLED(3)/oled.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/david21/Downloads/MCX_LAB_6_OLED/MCX_LAB_6_OLED(3)/oled.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 42,
+			"compileGroupIndex" : 0,
+			"path" : "C:/nxp/Proiect_Final_MCX_Course/sdks/Proiect_Final_MCX_sdk/components/uart/fsl_adapter_lpuart.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 47,
+			"compileGroupIndex" : 1,
+			"path" : "C:/nxp/Proiect_Final_MCX_Course/sdks/Proiect_Final_MCX_sdk/devices/MCXN947/gcc/startup_MCXN947_cm33_core0.S",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 51,
+			"compileGroupIndex" : 0,
+			"path" : "C:/nxp/Proiect_Final_MCX_Course/sdks/Proiect_Final_MCX_sdk/devices/MCXN947/system_MCXN947_cm33_core0.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 52,
+			"compileGroupIndex" : 0,
+			"path" : "C:/nxp/Proiect_Final_MCX_Course/sdks/Proiect_Final_MCX_sdk/devices/MCXN947/drivers/fsl_clock.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 56,
+			"compileGroupIndex" : 0,
+			"path" : "C:/nxp/Proiect_Final_MCX_Course/sdks/Proiect_Final_MCX_sdk/devices/MCXN947/drivers/fsl_common.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 57,
+			"compileGroupIndex" : 0,
+			"path" : "C:/nxp/Proiect_Final_MCX_Course/sdks/Proiect_Final_MCX_sdk/devices/MCXN947/drivers/fsl_common_arm.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 61,
+			"compileGroupIndex" : 0,
+			"path" : "C:/nxp/Proiect_Final_MCX_Course/sdks/Proiect_Final_MCX_sdk/devices/MCXN947/drivers/fsl_ctimer.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 65,
+			"compileGroupIndex" : 0,
+			"path" : "C:/nxp/Proiect_Final_MCX_Course/sdks/Proiect_Final_MCX_sdk/devices/MCXN947/drivers/fsl_gpio.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 69,
+			"compileGroupIndex" : 0,
+			"path" : "C:/nxp/Proiect_Final_MCX_Course/sdks/Proiect_Final_MCX_sdk/devices/MCXN947/drivers/fsl_lpadc.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 73,
+			"compileGroupIndex" : 0,
+			"path" : "C:/nxp/Proiect_Final_MCX_Course/sdks/Proiect_Final_MCX_sdk/devices/MCXN947/drivers/fsl_lpflexcomm.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 77,
+			"compileGroupIndex" : 0,
+			"path" : "C:/nxp/Proiect_Final_MCX_Course/sdks/Proiect_Final_MCX_sdk/devices/MCXN947/drivers/fsl_lpi2c.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 81,
+			"compileGroupIndex" : 0,
+			"path" : "C:/nxp/Proiect_Final_MCX_Course/sdks/Proiect_Final_MCX_sdk/devices/MCXN947/drivers/fsl_lpuart.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 85,
+			"compileGroupIndex" : 0,
+			"path" : "C:/nxp/Proiect_Final_MCX_Course/sdks/Proiect_Final_MCX_sdk/devices/MCXN947/drivers/fsl_spc.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 89,
+			"compileGroupIndex" : 0,
+			"path" : "C:/nxp/Proiect_Final_MCX_Course/sdks/Proiect_Final_MCX_sdk/devices/MCXN947/drivers/fsl_reset.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 93,
+			"compileGroupIndex" : 0,
+			"path" : "C:/nxp/Proiect_Final_MCX_Course/sdks/Proiect_Final_MCX_sdk/devices/MCXN947/drivers/fsl_vref.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 97,
+			"compileGroupIndex" : 0,
+			"path" : "C:/nxp/Proiect_Final_MCX_Course/sdks/Proiect_Final_MCX_sdk/devices/MCXN947/utilities/fsl_syscall_stub.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 97,
+			"compileGroupIndex" : 0,
+			"path" : "C:/nxp/Proiect_Final_MCX_Course/sdks/Proiect_Final_MCX_sdk/devices/MCXN947/utilities/fsl_sbrk.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 98,
+			"compileGroupIndex" : 1,
+			"path" : "C:/nxp/Proiect_Final_MCX_Course/sdks/Proiect_Final_MCX_sdk/devices/MCXN947/utilities/fsl_memcpy.S",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 99,
+			"compileGroupIndex" : 0,
+			"path" : "C:/nxp/Proiect_Final_MCX_Course/sdks/Proiect_Final_MCX_sdk/devices/MCXN947/utilities/debug_console_lite/fsl_assert.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 100,
+			"compileGroupIndex" : 0,
+			"path" : "C:/nxp/Proiect_Final_MCX_Course/sdks/Proiect_Final_MCX_sdk/devices/MCXN947/utilities/debug_console_lite/fsl_debug_console.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 101,
+			"compileGroupIndex" : 0,
+			"path" : "C:/nxp/Proiect_Final_MCX_Course/sdks/Proiect_Final_MCX_sdk/devices/MCXN947/utilities/str/fsl_str.c",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "EXECUTABLE"
+}

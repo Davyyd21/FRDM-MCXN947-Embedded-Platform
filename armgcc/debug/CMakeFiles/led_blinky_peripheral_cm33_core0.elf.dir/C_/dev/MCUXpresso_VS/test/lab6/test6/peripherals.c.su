@@ -1,0 +1,10 @@
+c:/NXP/MCUXpressoSDK_VSCode/frdm_mcxn947/frdm_mcxn947/CMSIS/Core/Include/core_cm33.h:2358:22:__NVIC_EnableIRQ	16	static
+c:/NXP/MCUXpressoSDK_VSCode/frdm_mcxn947/frdm_mcxn947/devices/MCXN947/drivers/fsl_common_arm.h:678:24:EnableIRQ	24	static
+c:/NXP/MCUXpressoSDK_VSCode/frdm_mcxn947/frdm_mcxn947/devices/MCXN947/drivers/fsl_spc.h:1093:20:SPC_EnableActiveModeAnalogModules	16	static
+C:/dev/MCUXpresso_VS/test/lab6/test6/peripherals.c:122:13:GPIO4_init	8	static
+C:/dev/MCUXpresso_VS/test/lab6/test6/peripherals.c:167:13:GPIO3_init	4	static
+C:/dev/MCUXpresso_VS/test/lab6/test6/peripherals.c:206:13:VREF0_init	8	static
+C:/dev/MCUXpresso_VS/test/lab6/test6/peripherals.c:327:13:ADC0_init	8	static
+C:/dev/MCUXpresso_VS/test/lab6/test6/peripherals.c:393:13:CTIMER0_init	8	static
+C:/dev/MCUXpresso_VS/test/lab6/test6/peripherals.c:404:6:BOARD_InitPeripherals	8	static
+C:/dev/MCUXpresso_VS/test/lab6/test6/peripherals.c:417:6:BOARD_InitBootPeripherals	8	static
