@@ -44,7 +44,7 @@ uint8_t current_led = 0; //LEDs are zero indexed so LED1 = 0, LED2 = 1 etc.
 uint8_t old_led = 0;  //to store all LED and turn off when updated current LED
 bool timer_start[2]={0};
 bool stateAa;
-bool displayStart[2]={0};
+bool oledScreenInitialized[4]={0};
 
 
 // Define variables for interrupts
@@ -172,9 +172,9 @@ int main(void) {
 	    lpadc_conv_result_t result;
 		if(app==0)
 		{
-			if(!displayStart[0])
+			if(!oledScreenInitialized[0])
 			{
-				displayStart[0]=1;
+				oledScreenInitialized[0]=1;
 				resetOLED();
 				printfOLED("App1: DP1\nApp2: DP2\nApp3: DP4\nApp4: DP8");
 				
@@ -186,7 +186,7 @@ int main(void) {
 			}
 			for(int i=1;i<4;i++)
 			{
-				displayStart[i]=0;
+				oledScreenInitialized[i]=0;
 			}
 			CTIMER_StopTimer(CTIMER0);
 			CTIMER_StopTimer(CTIMER1);
@@ -200,8 +200,8 @@ int main(void) {
 			if(!timer_start[0])
 			{
 				timer_start[0]=1;
-				displayStart[0]=0;
-				displayStart[3]=0;
+				oledScreenInitialized[0]=0;
+				oledScreenInitialized[3]=0;
 			    CTIMER_StartTimer(CTIMER0);
 				resetOLED();
 				printfOLED("Press SW1 to change LEDs direction.\nReset the switch to go back to the main menu.");
@@ -234,8 +234,8 @@ int main(void) {
 		{
 			if(!timer_start[1])
 			{
-				displayStart[0]=0;
-				displayStart[3]=0;
+				oledScreenInitialized[0]=0;
+				oledScreenInitialized[3]=0;
 				timer_start[1]=1;
 			    CTIMER_StartTimer(CTIMER1);
 			}
@@ -255,11 +255,11 @@ int main(void) {
 		}
 		else if(app==4)
 		{
-			if(!displayStart[1])
+			if(!oledScreenInitialized[1])
 			{
-				displayStart[1]=1;
-				displayStart[0]=0;
-				displayStart[3]=0;
+				oledScreenInitialized[1]=1;
+				oledScreenInitialized[0]=0;
+				oledScreenInitialized[3]=0;
 				resetOLED();
 				printfOLED("Rotary Encoder\nUse the rotary encoder to change the direction of LED blinking.\nReset the switch to go back to the main menu.");
 
@@ -324,11 +324,11 @@ int main(void) {
 		}
 		else if(app==8)
 		{
-			if(!displayStart[2])
+			if(!oledScreenInitialized[2])
 			{
-				displayStart[0]=0;
-				displayStart[3]=0;
-				displayStart[2]=1;
+				oledScreenInitialized[0]=0;
+				oledScreenInitialized[3]=0;
+				oledScreenInitialized[2]=1;
 				resetOLED();
 				printfOLED("Joystick\nThe LEDs will light up according to the joystick direction.\nReset the switch to go back to the main menu.");
 			}
@@ -363,13 +363,13 @@ int main(void) {
 		}
 		else
 		{
-			if(!displayStart[3])
+			if(!oledScreenInitialized[3])
 			{
-				displayStart[3]=1;
+				oledScreenInitialized[3]=1;
 				resetOLED();
 				for(int i=0;i<3;i++)
 				{
-					displayStart[i]=0;
+					oledScreenInitialized[i]=0;
 				}
 				for(int i=0;i<4;i++)
 				{
